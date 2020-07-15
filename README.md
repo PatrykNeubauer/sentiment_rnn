@@ -18,3 +18,5 @@ Following results were acquired from the same 100.000 sample from the dataset, w
 <img src="/100k%20sample%2C%2032%20batch%20size%20results/accuracy_32_0.0.png" height="50%" width="40%"><img src="/100k%20sample%2C%2032%20batch%20size%20results/accuracy_32_0.2.png" height="50%" width="40%">
 
 <img src="/100k%20sample%2C%2032%20batch%20size%20results/accuracy_64_0.0.png" height="50%" width="40%"><img src="/100k%20sample%2C%2032%20batch%20size%20results/accuracy_64_0.2.png" height="50%" width="40%">
+
+<img src="/100k%20sample%2C%2032%20batch%20size%20results/accuracy_128_0.0.png" height="50%" width="40%"><img src="/100k%20sample%2C%2032%20batch%20size%20results/accuracy_128_0.2.png" height="50%" width="40%">
