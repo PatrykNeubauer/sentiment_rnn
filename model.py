@@ -40,9 +40,8 @@ for word, i in word_index.items():
 
 # building the network
 inp = Input(shape=(max_len,))
-x = Embedding(max_features, embed_size, weights=[embedding_matrix])(inp)
+x = Embedding(max_features, embed_size, weights=[embedding_matrix], trainable=false)(inp)
 x = Bidirectional(LSTM(300, return_sequences=True))(x)
-x = Dense(6, activation='relu')(x)
 x = Dense(1, activation='sigmoid')(x)
 model = Model(inputs=inp, outputs=x)
 
